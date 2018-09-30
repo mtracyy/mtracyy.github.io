@@ -1,0 +1,154 @@
+body{
+    margin: auto 0;
+}
+
+nav {
+    text-align: center;
+    background-color: #a39dae;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+
+div {
+    min-height: 760px;
+    padding: 30px 20px;
+}
+
+h1 {
+    font-family: "Avenir Next Condensed";
+    font-weight: 100;
+    font-size: 45px;
+    color: aliceblue;
+    opacity: 0.8;
+}
+
+p {
+    font-family: "Avenir Next Condensed";
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 540px;
+    position: absolute;
+    max-width: 990px;
+    width: auto;
+    color: rgba(0, 0, 0, 0.61);
+    text-align: justify;
+    padding: 20px;
+}
+
+p a {
+    color: white;
+}
+
+.title {
+    display: block;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+#main {
+    font-family: "Bebas Neue";
+    font-size: 150px;
+    position: absolute;
+    margin-top: 290px;
+    color: white;
+
+}
+
+#submain {
+    font-family: "Bebas Neue";
+    font-size: 50px;
+    position: absolute;
+    margin-top: 450px;
+    color: white;
+}
+
+.nav-wrapper li {
+    display: inline;
+    padding: 50px;
+    font-family: "Bebas Neue";
+    font-size: 25px;
+}
+
+.nav-wrapper a {
+    color: honeydew;
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 100px;
+
+}
+
+.container img {
+    margin-top: 40px;
+    width: 33%;
+    height: auto;
+    position: inherit;
+}
+
+
+#home {
+    background-color: rgba(141, 165, 180, 0.81);
+    color: #F9F2F2;
+    background-image: url("https://static1.squarespace.com/static/576ef902d1758ef2e6dada3d/576f03126a4963e880312dde/59c41ad48fd4d26950ab3be0/1506024194803/IMG_1283.JPG?format=2500w");
+    background-size: cover;
+}
+
+
+#about {
+    background-color: rgba(144, 180, 172, 0.81);
+}
+
+#about img {
+    object-fit: cover;
+    width: auto;
+    height: 50%;
+    position: absolute;
+    margin-top: 120px;
+}
+
+#work {
+    background-color: rgba(179, 158, 180, 0.81);
+}
+
+
+#contact {
+    background-color: rgba(180, 151, 149, 0.81);
+}
+
+#contact img {
+    object-fit: cover;
+    width: auto;
+    height: 60%;
+    position: absolute;
+    margin-top: 120px;
+    /*justify-self: flex-start;*/
+}
+
+#contact p.website {
+    margin-top: 620px;
+
+}
+
+#contact p {
+    margin-top: 650px;
+
+}
+
+#contact p a {
+    text-decoration: none;
+}
+
+#contact p.links {
+    margin-top: 700px;
+}
