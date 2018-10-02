@@ -12,7 +12,7 @@ nav {
     z-index: 10;
 }
 
-div {
+.wrapper div {
     min-height: 760px;
     padding: 30px 20px;
 }
@@ -42,6 +42,10 @@ p a {
     color: white;
 }
 
+/*.wrapper{*/
+    /*height: 3em;*/
+
+/*}*/
 .title {
     display: block;
 }
@@ -50,6 +54,10 @@ p a {
     display: flex;
     justify-content: center;
     align-content: space-between;
+}
+
+.about p {
+    position: fixed;
 }
 
 #main {
