@@ -587,7 +587,7 @@ body {
         height: 100%;
         flex-wrap: wrap;
         overflow-y: scroll;
-  }
+    }
     .fl-wrapper .photo-container {
         display: flex;
         flex-wrap: wrap;
@@ -617,5 +617,4 @@ body {
         border: #1f355d;
         border-style: solid;
     }
-  }
 }
