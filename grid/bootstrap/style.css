@@ -1,0 +1,56 @@
+.container-fluid {
+    background-color: blue;
+    justify-content: center;
+    align-content: center;
+}
+
+#intro {
+    width: 100%;
+    height: 400px;
+    background-color: #cd9893;
+    text-align: center;
+}
+
+#intro span {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 50px;
+}
+
+.long {
+    height: 600px;
+    background-color: palegreen;
+    width: 50%;
+}
+
+.side {
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.short {
+    background-color: #1f355d;
+    height: 300px;
+}
+
+#side1 {
+    background-color: #2F96B4;
+}
+
+#side2 {
+    background-color: #4bbfc3;
+}
+
+#small1 {
+    background-color: #fac07b;
+}
+
+#small2 {
+    background-color: #F5CF8E;
+}
+
+#small3 {
+    background-color: #f1b476;
+}
