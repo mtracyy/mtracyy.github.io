@@ -1,0 +1,122 @@
+html, body { height: 100%; }
+
+.container-fluid {
+    padding: 0;
+}
+
+.carousel {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar li {
+    float: left;
+    padding: 1vw;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: yellow;
+    font-family: "Bebas Neue";
+    padding: 1%;
+}
+
+.navbar {
+    width: 100vw;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-fixed-top {
+    position: fixed;
+    z-index: 10;
+}
+
+.navbar .navbar-brand {
+    color: yellow;
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 1.5%;
+}
+
+#bnb1 {
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/ef590e59410059.5a20d761b8b3f.jpg");
+    background-size: 100%;
+}
+
+#bnb2 {
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/d1dbdc59410059.5a20d761b93cd.jpg");
+    background-size: 100%;
+}
+
+#bnb3 {
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/28715b59410059.5a20d761b9088.jpg");
+    background-size: 100%;
+}
+
+.short {
+    height: 75vh;
+}
+
+#home-album {
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+    padding: 0;
+}
+
+.jumbotron {
+    background-color: #FFE71B;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.jumbotron a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+.jumbotron img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.jumbotron p {
+    padding: 15px;
+}
+
+.jumbotron p span {
+    font-weight: bold;
+}
+
+.jumbotron h1.display-4 {
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.card {
+    margin: 8%;
+    background-color: black;
+    color: #FFE71B;
+    height: fit-content;
+}
+
+.card-group {
+    background-color: #FFE71B;
+    height: 100vh;
+}
