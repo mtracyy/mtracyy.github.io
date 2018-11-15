@@ -30,6 +30,10 @@
     width: 50%;
 }
 
+.row {
+    height: fit-content;
+}
+
 .short {
     background-color: #1f355d;
     height: 300px;
